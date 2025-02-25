@@ -69,12 +69,9 @@ A FastAPI-based user management system with authentication and CRUD operations.
 
 | Endpoint      | Method | Description                            |
 | ------------- | ------ | -------------------------------------- |
-| `/auth/login` | POST   | Authenticate user and return JWT token |
-| `/users/`     | GET    | Get a list of users                    |
-| `/users/{id}` | GET    | Get user by ID                         |
-| `/users/`     | POST   | Create a new user                      |
-| `/users/{id}` | PUT    | Update user by ID                      |
-| `/users/{id}` | DELETE | Delete user by ID                      |
+| `api/v1/users`     | GET    | Get a list of users                    |
+| `api/v1/users`     | POST   | Create a new user                      |
+| `api/v1/image/classify` | POST | Classify cat and dog image                    |
 
 ## Usage
 
